@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 10px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  }
+  .one {
+    background-color: red;
+  }
+  .two {
+    background-color: blue;
+  }
+  .three {
+    background-color: green;
+  }
+  .four {
+    background-color: pink;
+  }
+  .five {
+    background-color: yellow;
+  }
+  .six {
+    background-color: cyan;
+  }
+=======
 .container{
     padding: 20px;
     background-image: linear-gradient(to left ,midnightblue , white);
@@ -22,4 +50,3 @@
     align-items: center;
     justify-content: center;
 }
-
