@@ -5,37 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body>
+  <body class="min-h-screen">
     <h2>Hello Hacktoberfest</h2>    
     <figure>
       <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q =80" alt="Pro Shot" width="500px" height="350px">
       <figcaption>Sharp Photography Skill</figcaption>
     </figure>
 
-    <div class="wrapper">
-      <div class="one">One</div>
-      <div class="two">Two</div>
-      <div class="three">Three</div>
-      <div class="four">Four</div>
-      <div class="five">Five</div>
-      <div class="six">Six</div>
+    <div class="grid gap-4 grid-cols-3 grid-rows-[100px_minmax(100px,_1fr)_auto] bg-gradient-to-r from-green-200">
+      <div class="bg-red-500">One</div>
+      <div class="bg-blue-500">Two</div>
+      <div class="bg-green-500">Three</div>
+      <div class="bg-pink-500">Four</div>
+      <div class="bg-yellow-500">Five</div>
+      <div class="bg-sky-500">Six</div>
     </div>
 
 
-    <section class="container">
-      <div class="box">Box 1</div>
-      <div class="box">Box 2</div>
-      <div class="box">Box 3</div>
+    <section class="p-5 flex flex-wrap justify-evenly items-center bg-gradient-to-r from-indigo-500">
+      <div class="w-24 h-24 bg-orange-200 decoration-black flex items-center justify-center">Box 1</div>
+      <div class="w-24 h-24 bg-orange-200 decoration-black flex items-center justify-center">Box 2</div>
+      <div class="w-24 h-24 bg-orange-200 decoration-black flex items-center justify-center">Box 3</div>
 
     </section>
 
-    <section class="footer">
-        <a href="index.html" rel="noopener noreferrer">Home</a>
-        <a href="https://github.com/hafizip00/hacktoberfest_2022" rel="noopener noreferrer">Github</a>
-        <a href="https://github.com/hafizip00/hacktoberfest_2022/issues" rel="noopener noreferrer">Any Issues?</a>
-
+    <section class="flex bg-purple-500 gap-16 justify-center items-center p-1 text-lg">
+        <a class="text-white font-bold hover:text-yellow-500 hover:underline font-mono" href="index.html" rel="noopener noreferrer">Home</a>
+        <a class="text-white font-bold hover:text-yellow-500 hover:underline font-mono" href="https://github.com/hafizip00/hacktoberfest_2022" rel="noopener noreferrer">Github</a>
+        <a class="text-white font-bold hover:text-yellow-500 hover:underline font-mono" href="https://github.com/hafizip00/hacktoberfest_2022/issues" rel="noopener noreferrer">Any Issues?</a>
     </section>
 
 
