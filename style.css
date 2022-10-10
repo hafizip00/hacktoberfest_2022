@@ -50,3 +50,25 @@
     align-items: center;
     justify-content: center;
 }
+
+.footer {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    padding: 1rem;
+    font-size:larger;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
