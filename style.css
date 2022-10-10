@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,3 +31,22 @@
   .six {
     background-color: cyan;
   }
+=======
+.container{
+    padding: 20px;
+    background-image: linear-gradient(to left ,midnightblue , white);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
