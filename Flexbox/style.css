@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  li {
+    display: inline;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  body{
+    background-color:bisque;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:blue;
+    font-size: 50;
+}
+h2 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 50;
+}
